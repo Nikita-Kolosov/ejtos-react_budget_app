@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dropdown .btn {
+  height: 58px;
+  background-color: #5de7a7;
+}
+
+.dropdown .dropdown-menu {
+  background-color: #5de7a7;
+  border-color: var(--bs-btn-active-border-color);
+}
+
+.form-currency {
+  margin: 7px -30px 0 30px !important;
+}
+
+td svg {
+  cursor: pointer;
+} 
+
+.increase-icon-wrapper_plus, .increase-icon-wrapper_minus {
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+}
+
+.increase-icon-wrapper_plus path {
+  color: green;
+}
+
+.increase-icon-wrapper_minus path {
+  color: red;
+}
